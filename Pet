@@ -1,0 +1,35 @@
+//CISC. 3115 
+//Abigail Singh 
+//Brooklyn College
+
+ 
+public class Pet {
+  
+ private int age;
+ private String name; 
+ private String type; 
+
+ public Pet(int age,String name,String type) {
+  this.age = age;
+  this.name = name;
+  this.type = type; }
+
+  public int setAge(int age) {
+  this.age = age; }
+
+ public int getAge(){
+  return age; }
+ 
+ public String setName(String name) {
+  this.name = name; }
+
+ public int getName(){
+ return age;}
+ 
+  public String setType(String type) {
+  this.type = type; }
+
+ public String getType(){
+ return type; }
+}
+
